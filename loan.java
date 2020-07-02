@@ -50,7 +50,7 @@ public class loan {
 class Sortbytenure implements Comparator<loan>
 {
     // Used for sorting in ascending order of
-    // roll number
+    // tenure
     public int compare(loan a, loan b)
     {
 
@@ -60,7 +60,7 @@ class Sortbytenure implements Comparator<loan>
 class SortbyloanApplicantName implements Comparator<loan>
 {
     // Used for sorting in ascending order of
-    // roll name
+    // applicant name
     public int compare(loan a, loan b)
     {
         return a.loanApplicantName.compareTo(b.loanApplicantName);
